@@ -47,8 +47,8 @@ const Header: React.FC = () => {
   return (
     <header className={`sticky top-4 z-50 transition-all duration-300 mx-4 md:mx-auto max-w-6xl`}>
       <div ref={headerRef} className={`transition-all duration-300 flex items-center justify-between p-2 md:p-3 bg-brand-white/80 backdrop-blur-lg rounded-smooth ${isScrolled ? 'shadow-soft' : ''}`}>
-        <a href="#" className="font-heading text-lg md:text-xl font-bold text-brand-brown tracking-tight">
-          Master P Barbershop
+        <a href="#" className="flex items-center gap-2">
+          <img src="https://drive.google.com/uc?export=view&id=1pfatxNSNS0BsbA5IJaN2uYg675JEv_qc" alt="Master P Barbershop" className="h-10 md:h-12 w-auto" />
         </a>
         <nav className="hidden md:flex items-center space-x-6">
           {navLinks.map((link) => (

@@ -36,17 +36,17 @@ export const WOMENS_SERVICES_DATA: Service[] = [
 ];
 
 export const GALLERY_IMAGES: string[] = [
-  '/assets/Our Work 1 copy.jpg',
-  '/assets/Our Work 2 copy.jpg',
-  '/assets/Our Work 3 copy.jpg',
-  'https://picsum.photos/seed/gal4/800/600'
+  'https://drive.google.com/uc?export=view&id=1Ibyt8vh-cyrABdRB3rRqtwWZntWfEWX6',
+  'https://drive.google.com/uc?export=view&id=1Dl-K6vn2XPoOxAHenBzqQcfVqIRU4wXx',
+  'https://drive.google.com/uc?export=view&id=1QMpBBTttjL8WURX_Y8rks8F8IEmV2FC4',
+  'https://drive.google.com/uc?export=view&id=1Xyqu2opCd2rAKXaowCIPOBpa0p3IxJvg'
 ];
 
 export const BARBERS_DATA: Barber[] = [
   // TODO: Replace with actual barber details
-  { name: "Master P", specialties: "Precision Fades, Beard Work", experience: "10+ years", imageUrl: 'https://picsum.photos/seed/barber1/400/500' },
-  { name: "J-Fade", specialties: "Classic Cuts, Razor Art", experience: "7 years", imageUrl: 'https://picsum.photos/seed/barber2/400/500' },
-  { name: "The Stylist", specialties: "Modern Styles, Colour", experience: "5 years", imageUrl: 'https://picsum.photos/seed/barber3/400/500' },
+  { name: "Master P", specialties: "Precision Fades, Beard Work", experience: "10+ years", imageUrl: 'https://drive.google.com/uc?export=view&id=1Ibyt8vh-cyrABdRB3rRqtwWZntWfEWX6' },
+  { name: "J-Fade", specialties: "Classic Cuts, Razor Art", experience: "7 years", imageUrl: 'https://drive.google.com/uc?export=view&id=154WmWQKRff__idBU1hT6aOL845vlLLu_' },
+  { name: "The Stylist", specialties: "Modern Styles, Colour", experience: "5 years", imageUrl: 'https://drive.google.com/uc?export=view&id=1vpOQ1cE5KnrzZsmcUQ352lh6NgGT2T8o' },
 ];
 
 export const REVIEWS_DATA: Review[] = [

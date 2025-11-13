@@ -40,8 +40,8 @@ const Socials: React.FC = () => {
           {/* Instagram Card */}
           <div className="flex flex-col animate-on-scroll" style={{ transitionDelay: '200ms' }}>
             <div className="bg-white p-2 rounded-smooth shadow-soft border border-gray-200/50 flex-grow transition-all duration-300 hover:shadow-soft-hover hover:-translate-y-1">
-              <img 
-                src="https://picsum.photos/seed/insta/500/625"
+              <img
+                src="https://drive.google.com/uc?export=view&id=10LeTglA3kvPQvWjlJrNfwIWepV_c1GH5"
                 alt="Master P Barbershop Instagram feed example"
                 className="w-full h-full object-cover rounded-md aspect-[4/5]"
                 loading="lazy"
@@ -56,8 +56,8 @@ const Socials: React.FC = () => {
           {/* Facebook Card */}
           <div className="flex flex-col animate-on-scroll" style={{ transitionDelay: '300ms' }}>
             <div className="bg-white p-2 rounded-smooth shadow-soft border border-gray-200/50 flex-grow transition-all duration-300 hover:shadow-soft-hover hover:-translate-y-1">
-               <img 
-                src="https://picsum.photos/seed/fb/500/625"
+               <img
+                src="https://drive.google.com/uc?export=view&id=1MjQASDN002kxVb9Atpm0hxg8CmgdXOx_"
                 alt="Master P Barbershop Facebook feed example"
                 className="w-full h-full object-cover rounded-md aspect-[4/5]"
                 loading="lazy"

@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       <div
         className="absolute inset-0 bg-black overflow-hidden hero-bg-animate"
         style={{
-          backgroundImage: `url(/assets/home.jpg)`,
+          backgroundImage: `url(https://drive.google.com/uc?export=view&id=1kI-QUcQQ70Gtp14pZxA5Tz12h_hiiU3W)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
