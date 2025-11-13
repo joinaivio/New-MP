@@ -7,10 +7,10 @@ import WhatsAppIcon from './icons/WhatsAppIcon';
 const Hero: React.FC = () => {
   return (
     <section className="relative -mt-20 h-screen min-h-[600px] md:min-h-[700px] flex items-center justify-center text-center text-brand-white">
-      <div 
+      <div
         className="absolute inset-0 bg-black overflow-hidden hero-bg-animate"
         style={{
-          backgroundImage: `url(https://picsum.photos/seed/hero/1920/1080)`,
+          backgroundImage: `url(/assets/home.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

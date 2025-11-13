@@ -32,7 +32,7 @@ export const getOpeningStatus = async (userLocation?: { latitude: number; longit
       },
     });
 
-    const text = response.text.trim();
+    const text = response.text?.trim();
     if (text) {
       return text;
     } else {

@@ -35,11 +35,11 @@ export const WOMENS_SERVICES_DATA: Service[] = [
   { name: "Colour (Consultation)", price: "R___", duration: "on consultation" },
 ];
 
-export const GALLERY_IMAGES: string[] = [ 
-  'https://picsum.photos/seed/gal1/800/600', 
-  'https://picsum.photos/seed/gal2/800/600', 
-  'https://picsum.photos/seed/gal3/800/600', 
-  'https://picsum.photos/seed/gal4/800/600' 
+export const GALLERY_IMAGES: string[] = [
+  '/assets/Our Work 1 copy.jpg',
+  '/assets/Our Work 2 copy.jpg',
+  '/assets/Our Work 3 copy.jpg',
+  'https://picsum.photos/seed/gal4/800/600'
 ];
 
 export const BARBERS_DATA: Barber[] = [

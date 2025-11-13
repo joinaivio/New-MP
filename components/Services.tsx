@@ -46,7 +46,7 @@ const Services: React.FC = () => {
     <section id="services" className="py-20 md:py-28 bg-white" ref={sectionRef}>
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12 md:mb-16">
-          <img src="https://picsum.photos/seed/logo/200/200" alt="Master P Barbershop Logo" className="mx-auto h-20 md:h-24 w-auto mb-8 animate-on-scroll"/>
+          <img src="/assets/MP copy.png" alt="Master P Barbershop Logo" className="mx-auto h-20 md:h-24 w-auto mb-8 drop-shadow-md animate-on-scroll"/>
           <h2 className="font-heading text-4xl md:text-5xl font-bold animate-on-scroll" style={{ transitionDelay: '100ms' }}>Services & Pricing</h2>
           <p className="mt-3 text-lg text-gray-600 max-w-2xl mx-auto animate-on-scroll" style={{ transitionDelay: '200ms' }}>
             Quality service for everyone. Prices are placeholders and may vary.
