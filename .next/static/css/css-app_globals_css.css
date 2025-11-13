@@ -630,6 +630,9 @@ video {
 .aspect-\[4\/5\] {
   aspect-ratio: 4/5;
 }
+.h-10 {
+  height: 2.5rem;
+}
 .h-2\.5 {
   height: 0.625rem;
 }
@@ -659,9 +662,6 @@ video {
 }
 .h-screen {
   height: 100vh;
-}
-.h-10 {
-  height: 2.5rem;
 }
 .min-h-\[280px\] {
   min-height: 280px;
@@ -1394,12 +1394,12 @@ body {
     display: flex;
   }
 
-  .md\:h-24 {
-    height: 6rem;
-  }
-
   .md\:h-12 {
     height: 3rem;
+  }
+
+  .md\:h-24 {
+    height: 6rem;
   }
 
   .md\:min-h-\[700px\] {
