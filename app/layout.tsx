@@ -1,4 +1,3 @@
-
 // FIX: Import React to resolve the 'React' namespace for types like React.ReactNode.
 import React from 'react';
 import type { Metadata } from "next";
@@ -10,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Master P Barbershop | Midrand",
     description: "Premium barbershop in Midrand. Precision fades, classic cuts, beard work.",
-    images: [{ url: "https://picsum.photos/seed/og/1200/630" }],
+    images: [{ url: "/assets/home.jpg" }],
     url: "https://masterpbarbershop.com",
     type: "website",
   }
@@ -35,7 +34,7 @@ export default function RootLayout({
         "addressRegion": "Gauteng",
         "addressCountry": "ZA"
       },
-      "image": "https://picsum.photos/seed/og/1200/630",
+      "image": "/assets/home.jpg",
       "url": "https://masterpbarbershop.com",
       "priceRange": "R150 - R500",
       "sameAs": [

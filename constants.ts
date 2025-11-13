@@ -1,4 +1,3 @@
-
 import type { Service, Barber, Review } from './types';
 
 export const BUSINESS_INFO = {
@@ -36,21 +35,19 @@ export const WOMENS_SERVICES_DATA: Service[] = [
 ];
 
 export const GALLERY_IMAGES: string[] = [
-  'https://drive.google.com/uc?export=view&id=1Ibyt8vh-cyrABdRB3rRqtwWZntWfEWX6',
-  'https://drive.google.com/uc?export=view&id=1Dl-K6vn2XPoOxAHenBzqQcfVqIRU4wXx',
-  'https://drive.google.com/uc?export=view&id=1QMpBBTttjL8WURX_Y8rks8F8IEmV2FC4',
-  'https://drive.google.com/uc?export=view&id=1Xyqu2opCd2rAKXaowCIPOBpa0p3IxJvg'
+  '/assets/Our Work 1.jpg',
+  '/assets/Our Work 2.jpg',
+  '/assets/Our Work 3.jpg',
+  '/assets/Our Work 4.jpg'
 ];
 
 export const BARBERS_DATA: Barber[] = [
-  // TODO: Replace with actual barber details
-  { name: "Master P", specialties: "Precision Fades, Beard Work", experience: "10+ years", imageUrl: 'https://drive.google.com/uc?export=view&id=1Ibyt8vh-cyrABdRB3rRqtwWZntWfEWX6' },
-  { name: "J-Fade", specialties: "Classic Cuts, Razor Art", experience: "7 years", imageUrl: 'https://drive.google.com/uc?export=view&id=154WmWQKRff__idBU1hT6aOL845vlLLu_' },
-  { name: "The Stylist", specialties: "Modern Styles, Colour", experience: "5 years", imageUrl: 'https://drive.google.com/uc?export=view&id=1vpOQ1cE5KnrzZsmcUQ352lh6NgGT2T8o' },
+  { name: "Master P", specialties: "Precision Fades, Beard Work", experience: "10+ years", imageUrl: '/assets/Our Barbers 1.jpg' },
+  { name: "J-Fade", specialties: "Classic Cuts, Razor Art", experience: "7 years", imageUrl: '/assets/Our Barbers 2.jpg' },
+  { name: "The Stylist", specialties: "Modern Styles, Colour", experience: "5 years", imageUrl: '/assets/Our Barbers 3.jpg' },
 ];
 
 export const REVIEWS_DATA: Review[] = [
-  // TODO: Parse and use actual client reviews when provided
   { quote: "Best fade I've ever had. The attention to detail is insane. Will be back for sure!", name: "Thabo M.", rating: 5 },
   { quote: "Clean shop, professional barbers, and a great atmosphere. Master P is a legend.", name: "David S.", rating: 5, isLocalGuide: true },
   { quote: "I bring my son here for his cuts. They are patient and always do a fantastic job.", name: "Priya K.", rating: 5 },
